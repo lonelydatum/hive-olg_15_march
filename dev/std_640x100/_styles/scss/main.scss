@@ -1,0 +1,81 @@
+
+
+@import '../../../_common/styles/common.scss';
+
+
+
+.frame1 {
+	// opacity: 1;
+	#player_bg{
+		@include pos(-360, 0);
+	}
+	
+
+	#t1{
+		@include pos(189, 27);
+		#a1_when{
+			@include pos-scale(0, 0, .5);
+		}
+		#a2_your{
+			@include pos-scale(66, 0, .5);
+		}
+		#a3_college{
+			@include pos-scale(122, 0, .5);
+		}
+		#a4_knowledge{
+			@include pos-scale(-25, 25, .5);
+		}
+		#a5_is{
+			@include pos-scale(102, 25, .5);
+		}
+		#a6_textbook{
+			@include pos-scale(124, 25, .5);
+		}
+	}
+
+	#t2{
+		@include pos(136, 28);
+		#b1_get{
+			@include pos-scale(0, 0, .5);
+		}
+		#b2_way{
+			@include pos-scale(39, 0, .5);
+		}
+		#b3_into{
+			@include pos-scale(90, 0, .5);
+		}
+		#b4_the{
+			@include pos-scale(138, 0, .5);
+		}
+		#b5_tour{
+			@include pos-scale(177, 0, .5);
+		}
+	}
+
+	#logo_proline{
+		transform-origin: 50% 50%;
+		@include pos-scale(408, -1, .5);
+		// @include pos-scale(91, 94, .5);		
+	}
+}
+
+#legalContent{
+	padding: 8px;
+	line-height: 13px;	
+}
+
+
+
+#legalBtn{	
+	@include pos(5, 70);
+	// opacity: 1;
+}
+
+
+
+#banner{
+	font-size: 20px;
+	width: 640px;
+	height: 100px;
+}
+
