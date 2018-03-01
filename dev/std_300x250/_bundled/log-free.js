@@ -4,8 +4,9 @@
 function start() {
 	TweenLite.defaultEase = Power2.easeInOut;
 	var tl = new TimelineMax();
+	tl.set('.frame1', { opacity: 1 });
 	tl.from('#player_bg', .7, { x: -170, scale: 1.3, ease: Power2.easeOut });
-	tl.staggerFrom('#t1 img', .3, { x: '+=50', opacity: 0 }, .1);
+	tl.staggerFrom('#t1 img', .3, { x: '+=50', opacity: 0 }, .1, .2);
 	tl.from('#logo_proline', .3, { scale: 1.3, opacity: 0 }, "+=2");
 	var tlShake = new TimelineMax({ repeat: 3, yoyo: true });
 	tlShake.to('#player_bg', .05, { x: '-=4' });
@@ -20,6 +21,7 @@ function start() {
 	tl.to('#logo_proline', .3, { y: 94 }, "t2");
 
 	tl.from('#logos', .3, { opacity: 0 }, "+=.2");
+	tl.set('#legalBtn', { display: 'block' });
 }
 
 start();

@@ -5,7 +5,7 @@
 
 
 .frame1 {
-	opacity: 1;
+	// opacity: 1;
 	#player_bg{
 		@include pos(0, 0);
 	}
@@ -60,13 +60,18 @@
 		// @include pos-scale(91, 94, .5);
 		
 	}
+
+	
+}
+
+#legalBtn{	
+	@include pos(0, 210);
 }
 
 
 
 #banner{
 	font-size: 20px;
-	color: #333;
 	width: 300px;
 	height: 250px;
 }

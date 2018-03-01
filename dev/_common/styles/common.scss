@@ -37,7 +37,7 @@ canvas{
 	height: 250px;
 	overflow: hidden;
 	position: relative;
-	background-color: white;
+	background-color: #043411;
 	-webkit-text-size-adjust: 100%;
 	opacity: 1;
 }
@@ -98,4 +98,46 @@ sup{
 	transform-origin: 0 0 ;
 	image-rendering: -webkit-optimize-contrast;
 	
+}
+
+#legalContent{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,.9);
+	@include pos(0, 0);
+	color: white;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	padding: 10px;
+	font-size: 10px;
+	z-index: 90;
+	opacity: 0;
+	font-weight: normal;
+	line-height: 14px;
+	transition: opacity .3s;
+	pointer-events: none;
+}
+
+#legalBtn{	
+	background-color: green;
+	z-index: 100;
+	opacity: 0;
+	cursor: pointer;
+	width: 38px;
+	height: 30px;
+	background-color: red;		
+	display: none;
+}
+
+#legalBtn:hover ~ #legalContent {
+	opacity: 1;
+}
+
+
+
+
+#clicktag{
+	width: 100%;
+	height: 100%;
+	z-index: 99;
+	position: absolute;
 }
