@@ -34,21 +34,21 @@
 	}
 
 	#t2{
-		@include pos(136, 28);
+		@include pos(127, 31);
 		#b1_get{
 			@include pos-scale(0, 0, .5);
 		}
 		#b2_way{
-			@include pos-scale(39, 0, .5);
+			@include pos-scale(65, 0, .5);
 		}
 		#b3_into{
-			@include pos-scale(90, 0, .5);
+			@include pos-scale(92, 0, .5);
 		}
 		#b4_the{
-			@include pos-scale(138, 0, .5);
+			@include pos-scale(166, 0, .5);
 		}
 		#b5_tour{
-			@include pos-scale(177, 0, .5);
+			@include pos-scale(275, 0, .5);
 		}
 	}
 
