@@ -57,15 +57,20 @@
 	#logo_proline{
 		transform-origin: 50% 50%;
 		@include pos-scale(492, -6, .5);
-		// @include pos-scale(91, 94, .5);
-		
+		// @include pos-scale(91, 94, .5);		
 	}
-
-	
 }
 
+#legalContent{
+	padding: 8px;
+	line-height: 13px;	
+}
+
+
+
 #legalBtn{	
-	@include pos(0, 210);
+	@include pos(5, 63);
+	// opacity: 1;
 }
 
 

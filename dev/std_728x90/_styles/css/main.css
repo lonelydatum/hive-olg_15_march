@@ -376,10 +376,15 @@ sup {
   position: absolute;
 }
 
+#legalContent {
+  padding: 8px;
+  line-height: 13px;
+}
+
 #legalBtn {
-  -webkit-transform: translate(0px, 210px);
-  -ms-transform: translate(0px, 210px);
-  transform: translate(0px, 210px);
+  -webkit-transform: translate(5px, 63px);
+  -ms-transform: translate(5px, 63px);
+  transform: translate(5px, 63px);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;
