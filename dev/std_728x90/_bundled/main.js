@@ -11,13 +11,13 @@ function start(data) {
 	tl.from('#player_bg', .7, { x: data.playerX || "+=0", scale: data.playerScale || "+=0", ease: Power2.easeOut });
 	tl.staggerFrom('#t1 img', .3, { x: '+=50', opacity: 0 }, .1, .2);
 
-	tl.from('#logo_proline', .3, { scale: 1.3, opacity: 0 }, "+=1.8");
+	tl.from('#logo_proline', .3, { scale: 1.3, opacity: 0 }, "+=.1");
 	var tlShake = new TimelineMax({ repeat: 3, yoyo: true });
 	tlShake.to('#player_bg', .05, { x: '-=3' });
 
 	tl.add('shake');
-	tl.add(tlShake, 'shake');
-	tl.staggerTo('#t1 img', .2, { x: '-=20', opacity: 0 }, .1, 'shake');
+	tl.add(tlShake, 'shake-=.07');
+	tl.staggerTo('#t1 img', .2, { x: '-=20', opacity: 0 }, .1, '+=2');
 
 	tl.add('t2');
 	tl.staggerFrom('#t2 img', .3, { x: '+=50', opacity: 0 }, .1, 't2-=.33');
