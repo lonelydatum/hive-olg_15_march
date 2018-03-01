@@ -17,7 +17,7 @@ function start() {
 
 	tl.add('t2');
 
-	tl.staggerFrom('#t2 img', .3, { x: '+=50', opacity: 0 }, .1, 't2');
+	tl.staggerFrom('#t2 img', .3, { x: '+=50', opacity: 0 }, .1, 't2-=.33');
 	tl.to('#logo_proline', .3, { y: 94 }, "t2");
 
 	tl.from('#logos', .3, { opacity: 0 }, "+=.2");
