@@ -1,0 +1,78 @@
+
+
+@import '../../../_common/styles/common.scss';
+
+
+
+.frame1 {
+	// opacity: 1;
+	#player_bg{
+		@include pos(0, 0);
+	}
+	#bg {
+		@include pos-scale(-728, 0, .5);
+	}
+
+	#t1{
+		@include pos(249, 22);
+		#a1_when{
+			@include pos-scale(0, 0, .5);
+		}
+		#a2_your{
+			@include pos-scale(70, 0, .5);
+		}
+		#a3_college{
+			@include pos-scale(130, 0, .5);
+		}
+		#a4_knowledge{
+			@include pos-scale(-27, 25, .5);
+		}
+		#a5_is{
+			@include pos-scale(107, 25, .5);
+		}
+		#a6_textbook{
+			@include pos-scale(133, 25, .5);
+		}
+	}
+
+	#t2{
+		@include pos(192, 23);
+		#b1_get{
+			@include pos-scale(0, 0, .5);
+		}
+		#b2_way{
+			@include pos-scale(41, 0, .5);
+		}
+		#b3_into{
+			@include pos-scale(95, 0, .5);
+		}
+		#b4_the{
+			@include pos-scale(147, 0, .5);
+		}
+		#b5_tour{
+			@include pos-scale(189, 0, .5);
+		}
+	}
+
+	#logo_proline{
+		transform-origin: 50% 50%;
+		@include pos-scale(492, -6, .5);
+		// @include pos-scale(91, 94, .5);
+		
+	}
+
+	
+}
+
+#legalBtn{	
+	@include pos(0, 210);
+}
+
+
+
+#banner{
+	font-size: 20px;
+	width: 728px;
+	height: 90px;
+}
+

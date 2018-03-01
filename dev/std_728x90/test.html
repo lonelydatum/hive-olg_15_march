@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<style>
+
+
+.content, .sis{
+	width: 100px;
+	height: 100px;
+	background-color: black;
+	
+}
+
+.btn, .bro{
+	width: 55px;
+	height: 55px;
+	background-color: green;
+	
+}
+
+.btn:hover ~ .content{
+	opacity: .3;
+}
+
+
+.bro:hover ~ .sis {
+    background-color: red;
+    color: white;
+    opacity: .3;
+}
+
+
+
+
+</style>
+<body>
+
+<div class="btn">s</div>
+<div class="content">sd</div>
+
+
+
+    <div class="bro">hover over me</div>
+    <div class="sis">I get highlighted</div>
+
+
+</body>
+
+
+</html>
