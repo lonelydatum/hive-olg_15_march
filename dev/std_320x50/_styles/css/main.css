@@ -209,9 +209,9 @@ sup {
 }
 
 .frame1 #t1 {
-  -webkit-transform: translate(48px, 5px);
-  -ms-transform: translate(48px, 5px);
-  transform: translate(48px, 5px);
+  -webkit-transform: translate(45px, 10px);
+  -ms-transform: translate(45px, 10px);
+  transform: translate(45px, 10px);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;
@@ -220,9 +220,9 @@ sup {
 }
 
 .frame1 #t1 #a1_when {
-  -webkit-transform: translate(29px, 0px) scale(0.5, 0.5);
-  -ms-transform: translate(29px, 0px) scale(0.5, 0.5);
-  transform: translate(29px, 0px) scale(0.5, 0.5);
+  -webkit-transform: translate(10px, 0px) scale(0.5, 0.5);
+  -ms-transform: translate(10px, 0px) scale(0.5, 0.5);
+  transform: translate(10px, 0px) scale(0.5, 0.5);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;
@@ -231,9 +231,9 @@ sup {
 }
 
 .frame1 #t1 #a2_your {
-  -webkit-transform: translate(67px, 0px) scale(0.5, 0.5);
-  -ms-transform: translate(67px, 0px) scale(0.5, 0.5);
-  transform: translate(67px, 0px) scale(0.5, 0.5);
+  -webkit-transform: translate(38px, 0px) scale(0.5, 0.5);
+  -ms-transform: translate(38px, 0px) scale(0.5, 0.5);
+  transform: translate(38px, 0px) scale(0.5, 0.5);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;
@@ -242,9 +242,9 @@ sup {
 }
 
 .frame1 #t1 #a3_college {
-  -webkit-transform: translate(1px, 14px) scale(0.5, 0.5);
-  -ms-transform: translate(1px, 14px) scale(0.5, 0.5);
-  transform: translate(1px, 14px) scale(0.5, 0.5);
+  -webkit-transform: translate(86px, 0px) scale(0.5, 0.5);
+  -ms-transform: translate(86px, 0px) scale(0.5, 0.5);
+  transform: translate(86px, 0px) scale(0.5, 0.5);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;
@@ -253,9 +253,9 @@ sup {
 }
 
 .frame1 #t1 #a4_knowledge {
-  -webkit-transform: translate(53px, 14px) scale(0.5, 0.5);
-  -ms-transform: translate(53px, 14px) scale(0.5, 0.5);
-  transform: translate(53px, 14px) scale(0.5, 0.5);
+  -webkit-transform: translate(18px, 15px) scale(0.5, 0.5);
+  -ms-transform: translate(18px, 15px) scale(0.5, 0.5);
+  transform: translate(18px, 15px) scale(0.5, 0.5);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;
@@ -264,20 +264,9 @@ sup {
 }
 
 .frame1 #t1 #a5_is {
-  -webkit-transform: translate(25px, 29px) scale(0.5, 0.5);
-  -ms-transform: translate(25px, 29px) scale(0.5, 0.5);
-  transform: translate(25px, 29px) scale(0.5, 0.5);
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  -webkit-perspective: 1000px;
-  perspective: 1000px;
-  position: absolute;
-}
-
-.frame1 #t1 #a6_textbook {
-  -webkit-transform: translate(38px, 29px) scale(0.5, 0.5);
-  -ms-transform: translate(38px, 29px) scale(0.5, 0.5);
-  transform: translate(38px, 29px) scale(0.5, 0.5);
+  -webkit-transform: translate(43px, 15px) scale(0.5, 0.5);
+  -ms-transform: translate(43px, 15px) scale(0.5, 0.5);
+  transform: translate(43px, 15px) scale(0.5, 0.5);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;
@@ -297,9 +286,9 @@ sup {
 }
 
 .frame1 #t2 #b1_get {
-  -webkit-transform: translate(13px, 0px) scale(0.5, 0.5);
-  -ms-transform: translate(13px, 0px) scale(0.5, 0.5);
-  transform: translate(13px, 0px) scale(0.5, 0.5);
+  -webkit-transform: translate(2px, 0px) scale(0.5, 0.5);
+  -ms-transform: translate(2px, 0px) scale(0.5, 0.5);
+  transform: translate(2px, 0px) scale(0.5, 0.5);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;
@@ -308,9 +297,9 @@ sup {
 }
 
 .frame1 #t2 #b2_way {
-  -webkit-transform: translate(37px, 0px) scale(0.5, 0.5);
-  -ms-transform: translate(37px, 0px) scale(0.5, 0.5);
-  transform: translate(37px, 0px) scale(0.5, 0.5);
+  -webkit-transform: translate(47px, 0px) scale(0.5, 0.5);
+  -ms-transform: translate(47px, 0px) scale(0.5, 0.5);
+  transform: translate(47px, 0px) scale(0.5, 0.5);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;
@@ -319,9 +308,9 @@ sup {
 }
 
 .frame1 #t2 #b3_into {
-  -webkit-transform: translate(68px, 0px) scale(0.5, 0.5);
-  -ms-transform: translate(68px, 0px) scale(0.5, 0.5);
-  transform: translate(68px, 0px) scale(0.5, 0.5);
+  -webkit-transform: translate(65px, 0px) scale(0.5, 0.5);
+  -ms-transform: translate(65px, 0px) scale(0.5, 0.5);
+  transform: translate(65px, 0px) scale(0.5, 0.5);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;
@@ -330,9 +319,9 @@ sup {
 }
 
 .frame1 #t2 #b4_the {
-  -webkit-transform: translate(2px, 14px) scale(0.5, 0.5);
-  -ms-transform: translate(2px, 14px) scale(0.5, 0.5);
-  transform: translate(2px, 14px) scale(0.5, 0.5);
+  -webkit-transform: translate(0px, 15px) scale(0.5, 0.5);
+  -ms-transform: translate(0px, 15px) scale(0.5, 0.5);
+  transform: translate(0px, 15px) scale(0.5, 0.5);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;
@@ -341,9 +330,9 @@ sup {
 }
 
 .frame1 #t2 #b5_tour {
-  -webkit-transform: translate(26px, 14px) scale(0.5, 0.5);
-  -ms-transform: translate(26px, 14px) scale(0.5, 0.5);
-  transform: translate(26px, 14px) scale(0.5, 0.5);
+  -webkit-transform: translate(77px, 15px) scale(0.5, 0.5);
+  -ms-transform: translate(77px, 15px) scale(0.5, 0.5);
+  transform: translate(77px, 15px) scale(0.5, 0.5);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;

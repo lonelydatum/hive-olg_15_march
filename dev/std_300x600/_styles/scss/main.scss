@@ -5,7 +5,7 @@
 
 
 .frame1 {
-	opacity: 1;
+	// opacity: 1;
 	#player_bg{
 		@include pos(0, 0);
 	}
@@ -14,43 +14,41 @@
 	}
 
 	#t1{
-		@include pos(29, 312);
+		@include pos(74, 304);
 		#a1_when{
-			@include pos-scale(56, 0, .5);
+			@include pos-scale(0, 0, .5);
 		}
 		#a2_your{
-			@include pos-scale(126, 0, .5);
+			@include pos-scale(60, 0, .5);
 		}
 		#a3_college{
-			@include pos-scale(6, 31, .5);
+			@include pos-scale(3, 34, .5);
 		}
 		#a4_knowledge{
-			@include pos-scale(103, 31, .5);
+			@include pos-scale(101, 34, .5);
 		}
 		#a5_is{
-			@include pos-scale(51, 62, .5);
+			@include pos-scale(-6, 68, .5);
 		}
-		#a6_textbook{
-			@include pos-scale(76, 62, .5);
-		}
+		
 	}
 
 	#t2{
-		@include pos(43, 334);
+		@include pos(32, 322);
 		#b1_get{
 			@include pos-scale(0, 0, .5);
 		}
 		#b2_way{
-			@include pos-scale(49, 0, .5);
+			@include pos-scale(94, 0, .5);
 		}
 		#b3_into{
-			@include pos-scale(113, 0, .5);
+			@include pos-scale(132, 0, .5);
 		}
 		#b4_the{
-			@include pos-scale(173, 0, .5);
+			@include pos-scale(-2, 34, .5);
 		}
 		#b5_tour{
-			@include pos-scale(-2, 30, .5);
+			@include pos-scale(157, 34, .5);
 		}
 	}
 

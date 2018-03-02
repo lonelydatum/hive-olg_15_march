@@ -12,43 +12,43 @@
 	
 
 	#t1{
-		@include pos(48, 5);
+		@include pos(45, 10);
 		#a1_when{
-			@include pos-scale(29, 0, .5);
+			@include pos-scale(10, 0, .5);
 		}
 		#a2_your{
-			@include pos-scale(67, 0, .5);
+			@include pos-scale(38, 0, .5);
 		}
 		#a3_college{
-			@include pos-scale(1, 14, .5);
+			@include pos-scale(86, 0, .5);
 		}
 		#a4_knowledge{
-			@include pos-scale(53, 14, .5);
+			@include pos-scale(18, 15, .5);
 		}
 		#a5_is{
-			@include pos-scale(25, 29, .5);
+			@include pos-scale(43, 15, .5);
 		}
 		#a6_textbook{
-			@include pos-scale(38, 29, .5);
+			// @include pos-scale(38, 29, .5);
 		}
 	}
 
 	#t2{
 		@include pos(56, 4);
 		#b1_get{
-			@include pos-scale(13, 0, .5);
+			@include pos-scale(2, 0, .5);
 		}
 		#b2_way{
-			@include pos-scale(37, 0, .5);
+			@include pos-scale(47, 0, .5);
 		}
 		#b3_into{
-			@include pos-scale(68, 0, .5);
+			@include pos-scale(65, 0, .5);
 		}
 		#b4_the{
-			@include pos-scale(2, 14, .5);
+			@include pos-scale(0, 15, .5);
 		}
 		#b5_tour{
-			@include pos-scale(26, 14, .5);
+			@include pos-scale(77, 15, .5);
 		}
 	}
 

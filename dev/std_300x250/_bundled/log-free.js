@@ -42,8 +42,7 @@ var _commonJsCommonJs2 = _interopRequireDefault(_commonJsCommonJs);
 
 (0, _commonJsCommonJs2["default"])({
 	playerX: "-=170",
-	playerScale: 1.3,
-	logoY: 94
+	playerScale: 1.3
 });
 
 },{"../../_common/js/common.js":1}]},{},[2])
